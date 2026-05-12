@@ -159,7 +159,7 @@ export default function RelatorioPedidosSection() {
             type="date"
             value={dataInicio}
             onChange={(e) => setDataInicio(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full text-blackmb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
             placeholder="Data Início"
           />
           
@@ -167,7 +167,7 @@ export default function RelatorioPedidosSection() {
             type="date"
             value={dataFim}
             onChange={(e) => setDataFim(e.target.value)}
-            className="w-full mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full text-black mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-500"
             placeholder="Data Fim"
           />
 

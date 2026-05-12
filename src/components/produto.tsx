@@ -97,14 +97,14 @@ export default function ProdutoSection() {
             placeholder="Nome do Produto"
             value={nome}
             onChange={(e) => setNome(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full text-black mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           
           <textarea
             placeholder="Descrição"
             value={descricao}
             onChange={(e) => setDescricao(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full text-black mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           
           <input
@@ -113,7 +113,7 @@ export default function ProdutoSection() {
             placeholder="Preço"
             value={preco}
             onChange={(e) => setPreco(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full text-black mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           
           <input
@@ -121,7 +121,7 @@ export default function ProdutoSection() {
             placeholder="Estoque"
             value={estoque}
             onChange={(e) => setEstoque(e.target.value)}
-            className="w-full mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full text-black mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           
           <button

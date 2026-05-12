@@ -87,7 +87,7 @@ export default function ClienteSection() {
             placeholder="Nome Completo"
             value={nome}
             onChange={(e) => setNome(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-full mb-3 p-2 text-black border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           
           <input
@@ -95,7 +95,7 @@ export default function ClienteSection() {
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-full mb-3 p-2 text-black border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           
           <input
@@ -103,7 +103,7 @@ export default function ClienteSection() {
             placeholder="Telefone"
             value={telefone}
             onChange={(e) => setTelefone(e.target.value)}
-            className="w-full mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-full mb-4 p-2 text-black border rounded focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           
           <button
