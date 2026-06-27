@@ -49,7 +49,6 @@ export const AuthSession = {
 
       return session;
     } catch (error) {
-      this.clear();
       if (process.env.NODE_ENV === "development") {
         console.error("Sessão inválida encontrada no storage", error);
       }
