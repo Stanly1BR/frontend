@@ -1,10 +1,6 @@
 import "./globals.css";
-import { Providers } from "./providers";
-
-export const metadata = {
-  title: "Sistema de Gestão de Vendas",
-  description: "Cadastro automático de produtos, clientes e pedidos",
-};
+import QueryProvider from "@/utils/QueryProvider";
+import { AppShell } from "@/components/slidebar/AppShell";
 
 export default function RootLayout({
   children,
@@ -14,7 +10,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="min-h-full flex flex-col">
-        <Providers>{children}</Providers>
+        <QueryProvider>
+          <AppShell>{children}</AppShell>
+        </QueryProvider>
       </body>
     </html>
   );
