@@ -49,9 +49,7 @@ export const AuthSession = {
 
       return session;
     } catch (error) {
-      if (process.env.NODE_ENV === "development") {
-        console.error("Sessão inválida encontrada no storage", error);
-      }
+      console.error("Failed to parse auth session from localStorage:", error);
       return null;
     }
   },
