@@ -1,7 +1,7 @@
 import type { MedicoDTO } from '../schemas/medico.schema';
 import { fetchWithAuth } from '../utils/fetchWithAuth';
 
-const API_URL = 'http://localhost:3001/api/medicos';
+const API_URL = 'https://backend-9ip3.onrender.com/api/medicos';
 
 export class MedicoService {
     static async getById(id: string): Promise<MedicoDTO> {

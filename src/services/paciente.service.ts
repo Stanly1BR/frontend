@@ -1,7 +1,7 @@
 import type { PacienteDTO } from '../schemas/paciente.schema';
 import { fetchWithAuth } from '../utils/fetchWithAuth';
 
-const API_URL = 'http://localhost:3001/api/pacientes';
+const API_URL = 'https://backend-9ip3.onrender.com/api/pacientes';
 
 export class PacienteService {
     static async getById(id: string): Promise<PacienteDTO> {

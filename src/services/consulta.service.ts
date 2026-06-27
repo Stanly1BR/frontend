@@ -1,7 +1,7 @@
 import { ConsultaDTO } from "@/schemas/consulta.schema";
 import { fetchWithAuth } from '../utils/fetchWithAuth';
 
-const API_URL = 'http://localhost:3001/api/consultas';
+const API_URL = 'https://backend-9ip3.onrender.com/api/consultas';
 
 export class ConsultaService {
     static async getById(id: string): Promise<ConsultaDTO> {

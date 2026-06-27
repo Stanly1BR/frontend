@@ -1,7 +1,7 @@
 import type { DiagnosticoDTO } from "@/schemas/diagnosticos.schema.js";
 import { fetchWithAuth } from '../utils/fetchWithAuth';
 
-const API_URL = 'http://localhost:3001/api/diagnosticos';
+const API_URL = 'https://backend-9ip3.onrender.com/api/diagnosticos';
 
 export class DiagnosticoService {
     static async getById(id: string): Promise<DiagnosticoDTO> {

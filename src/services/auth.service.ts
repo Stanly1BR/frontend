@@ -1,6 +1,6 @@
 import type { LoginDTO, RegisterDTO, AuthResponseDTO } from '../schemas/auth.schema';
 
-const API_URL = 'http://localhost:3001/api/auth';
+const API_URL = 'https://backend-9ip3.onrender.com/api/auth';
 
 export class AuthService {
     static async login(data: LoginDTO): Promise<AuthResponseDTO> {
